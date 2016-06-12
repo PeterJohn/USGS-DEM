@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dem - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP53.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/dem.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Libraries\dem\DEMGrid.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Libraries\dem\DEMHeader.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Libraries\dem\DEMProfile.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Libraries\dem\DEMStats.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Libraries\dem\DEMUtil.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP53.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\libdem.lib"  ".\Release\DEMGrid.obj" ".\Release\DEMHeader.obj" ".\Release\DEMProfile.obj" ".\Release\DEMStats.obj" ".\Release\DEMUtil.obj" "
+<h3>Output Window</h3>
+Compiling...
+DEMGrid.cpp
+DEMHeader.cpp
+DEMProfile.cpp
+DEMStats.cpp
+DEMUtil.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+libdem.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
